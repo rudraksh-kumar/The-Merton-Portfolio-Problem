@@ -1,0 +1,25 @@
+{
+  "data": "NSE daily Total Returns Indices",
+  "r": 0.0635664336372847,
+  "r_source": "mean RBI 91-day T-bill auction yield over the sample",
+  "backtest": {
+    "start": "2017-09-29",
+    "end": "2026-11-13",
+    "n_rebal": 111,
+    "rf_eval": 0.05492087881468377
+  },
+  "n_obs": 4746,
+  "years": 19.156741957563312,
+  "ann_factor": 247.7456767185937,
+  "consistency": {
+    "multi_N1": 0.47720549765607706,
+    "one_asset": 0.477205497656077,
+    "kappa_multi_N1": 0.07753135199665265,
+    "kappa_one": 0.07753135199665265
+  },
+  "max_corr_offdiag": 0.8870937559782236,
+  "se_mu_range": [
+    0.04129097432332253,
+    0.061255479553193964
+  ]
+}

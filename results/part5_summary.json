@@ -1,0 +1,28 @@
+{
+  "order_space_V": 0.9473808388352518,
+  "order_space_pi": 1.9997987059744846,
+  "order_time_V": 1.029549001161236,
+  "order_dp_V_g5": 1.0108489329972739,
+  "order_dp_pi_g5": 0.9807893625560081,
+  "constrained": {
+    "mu": 0.2,
+    "gamma": 2.0,
+    "pi_star_unconstrained": 1.7499999999999998,
+    "exact_V0_constrained": -0.8521437889662113,
+    "fd_V0": -0.8521968412563313,
+    "fd_relerr": 6.225743918686355e-05,
+    "fd_pi0": 1.0,
+    "fd_pi_min": 1.0,
+    "fd_pi_max": 1.0,
+    "dp_V0": -0.8521436721354511,
+    "dp_relerr": 1.3710216728579638e-07,
+    "dp_pi0": 1.0,
+    "slack_case_fd_relerr": 3.655303253191633e-06,
+    "slack_case_pi0": 0.5000694367292411
+  },
+  "time_dependence": {
+    "pi_t_min": 0.5002776543790523,
+    "pi_t_max": 0.5002776543792221
+  },
+  "runtime_s": 26.89245367050171
+}

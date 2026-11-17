@@ -1,0 +1,31 @@
+{
+  "weak_moments_exact_pi_star": {
+    "order_mean": 0.994711799320448,
+    "order_m2_EM": 0.9932112938759431,
+    "order_m2_Mil": 0.9932613354496223,
+    "mc_m2_mil_N4": 1.2063466967467782,
+    "mc_se": 0.00016843349007460422,
+    "recursion_m2_mil_N4": 1.206314840342387,
+    "z": 0.18913343407647049
+  },
+  "weak_moments_exact_lev": {
+    "order_mean": 0.9910889722664519,
+    "order_m2_EM": 0.9810026383322257,
+    "order_m2_Mil": 0.9823486989510795,
+    "mc_m2_mil_N4": 1.4596746275340624,
+    "mc_se": 0.0006508134863384573,
+    "recursion_m2_mil_N4": 1.459629640168613,
+    "z": 0.06912482054180726
+  },
+  "strong_slope_EM_pi_star": 0.523987022481083,
+  "strong_slope_Mil_pi_star": 0.9932308031813946,
+  "strong_slope_EM_lev": 0.4863090856168983,
+  "strong_slope_Mil_lev": 0.9781038303773424,
+  "weak_slope_EM_pi_star": 1.0055374006944962,
+  "weak_slope_Mil_pi_star": 1.0045295379846326,
+  "weak_slope_EM_lev": 1.0512922848476318,
+  "weak_slope_Mil_lev": 0.9966281361257611,
+  "weak_slope_meanX": 0.9915623351824006,
+  "mc_rmse_slope": -0.5010170527259904,
+  "max_abs_z_EU": 2.225955082801931
+}

@@ -1,0 +1,59 @@
+{
+  "q_dividend_yield": null,
+  "data_source": "NSE Total Returns Index (official)",
+  "data_check": {
+    "source": "NSE Total Returns Index (official)",
+    "common_start": "2007-09-17",
+    "common_end": "2026-04-13",
+    "n_common": 4554,
+    "tri_growth": 0.10151236201051408,
+    "price_growth": 0.08984989701667075,
+    "implied_div_yield": 0.011662464993843338,
+    "proxy_yield": 0.013020212765957447,
+    "proxy_minus_tri": 0.0013577477721141151
+  },
+  "rf_source": "RBI 91-day T-bill auction cut-off yield (weekly, data/tbill_91d_auctions.csv)",
+  "estimation": {
+    "years": 19.156741957563312,
+    "n_days": 4746,
+    "rf_mean": 0.063542002317253,
+    "full": {
+      "m": 0.10165314142552653,
+      "sigma": 0.2021939388762996,
+      "mu": 0.12209433588468292,
+      "se_mu": 0.046196312237182326,
+      "pi": 0.47740469769206734,
+      "se_pi": 0.37666024792474256
+    },
+    "ljung_box_returns": {
+      "Q10": 45.6361903357712,
+      "p": 1.6690892672421853e-06,
+      "ac1": 0.03284277288141247
+    },
+    "ljung_box_squared": {
+      "Q10": 1576.534600016826,
+      "p": 0.0,
+      "ac1": 0.150822982480267,
+      "ac5": 0.19680566618567774
+    },
+    "vol1y_min_max": [
+      0.08883664281321683,
+      0.4679289917637507
+    ]
+  },
+  "full_sample_loss_ref": {
+    "m": 0.10165314142552653,
+    "sigma": 0.2021939388762996,
+    "mu": 0.12209433588468292,
+    "se_mu": 0.046196312237182326,
+    "pi": 0.47740469769206734,
+    "se_pi": 0.37666024792474256
+  },
+  "backtest": {
+    "start": "2017-09-29",
+    "end": "2026-11-13",
+    "n_rebal": 111,
+    "rf_eval": 0.05492087881468377,
+    "pi_hindsight": 0.8953615449530778
+  }
+}
